@@ -7,7 +7,7 @@
 }
 
 .banner .wrap{
-    background: url('/images/common/common_banner.jpg');
+    background: url('../images/common/common_banner.jpg');
     background-size: cover;
     padding: 10% 7%;
 }
