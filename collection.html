@@ -30,11 +30,11 @@
     <section class="banner">
         <div class="full_wrap">
             <div class="banner_content">
-                <img src="images/collections/banner.jpg" alt="">
+                <img src="images/collections/santa-dribbble.gif " alt="">
             </div>
 
             <div class="pic">
-                <img src="images/collections/phantabear.png" alt="">
+                <img src="images/collections/sheep.jpg" alt="">
             </div>
         </div>
     </section>
@@ -89,8 +89,8 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus reprehenderit tempora eveniet ipsam nihil nam porro est earum veritatis voluptatum.</p>
                 </div>
                 <div class="col-11 style_link">
-                    <button>Items</button>
-                    <button>Activity</button>
+                    <!-- <button>Items</button>
+                    <button>Activity</button> -->
                 </div>
             </div>
         </div>
@@ -281,6 +281,13 @@
     <script src="js/hamburger.js"></script>
     <script src="js/data.js"></script>
     <script src="js/collection.js"></script>
+
+    <!-- js only for this page -->
+    <script>
+        $('.items .txt').click(function(){
+        $(this).siblings('.option').slideToggle();
+        });
+    </script>
 
 </body>
 </html>
