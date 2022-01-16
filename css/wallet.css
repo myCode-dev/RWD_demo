@@ -69,12 +69,13 @@ h2{
 
 .wallet .item .pic{
     width: 10%;
+    margin-right: 5%;
     /* border: 10px solid red; */
 }
 
 .wallet .txt h3{
     font-size: 1.3em;
-    padding: 5% 0 5% 40%;
+    /* padding: 5% 0 5% 40%; */
 
 }
 .wallet .txt p{
