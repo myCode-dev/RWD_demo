@@ -22,7 +22,7 @@ document.writeln('           <a href="collection.html">');
 document.writeln('               <i class="far fa-copy"></i>Collection');
 document.writeln('           </a>');
 document.writeln('           <a href="login.html">');
-document.writeln('               <i class="fas fa-user"></i>Login');
+document.writeln('               <i class="far fa-user-circle"></i>Login');
 document.writeln('           </a>');
 document.writeln('           <a href="create.html">Create</a>');
 document.writeln('           <a href="login.html"><img src="images/common/user.png" alt="member" id="member">');
