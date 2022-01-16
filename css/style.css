@@ -662,6 +662,10 @@
     .popCollection .item .pic{
         padding: 5% 10% 0;
     }
+    .popCollection .owl-carousel .owl-item .txt img{
+        width: 20%;
+    }
+        
     .popCollection h4{
         font-size: 1.5em;
     }
