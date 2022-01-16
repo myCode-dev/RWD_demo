@@ -52,7 +52,7 @@ $(document).ready(function(){
     $(window).scroll(function () {
             let scrollVal = $(this).scrollTop();
             let nav_top=$(".banner_content").offset().top;
-            let side_top=$(".side_menu").offset().top
+            let side_top=$(".intro .style_link").offset().top
 
             if(window.innerWidth>767){ 
                 //For rwd none work
@@ -69,34 +69,21 @@ $(document).ready(function(){
                 };
 
                 if(scrollVal > side_top){
-                    // $(".side_menu").css({
-                    //     "position": "fixed",
-                    //     "top": "70px",
-                    //     "bottom": "45px",
-                    //     "left": "0px",
-                    //     "right":"0px",
-                    //     "min-height": "0",
-                    //     "z-index":"1"
-                    // });
-                    $('.collection_area .row').css({
-                        // "position": "fixed",
-                        // "top": "70px",
-                        // "bottom": "45px",
-                        // "left": "0px",
-                        // "right":"0px",
-                        // "min-height": "0",
-                        // "z-index":"999"
-                    }); 
-                    // $('.main_area').css({
-                    //     "position": "fixed",
-                    //     "top": "70px",
-                    //     "bottom": "45px",
-                    //     "left": "0px",
-                    //     "right":"0px",
-                    //     "min-height": "0",
-                    //     "z-index":"1"
-                    // }); 
+                    $('.side_menu').addClass('side-fixed')
+                    $('.main_area').addClass('main-fixed')
+                    $('.collection').addClass('collection-fixed')
+                    $('.main_area .row').css({
+                        "padding-top":"20px"
+                    })
                     
+                }else{
+                    $('.side_menu').removeClass('side-fixed')
+                    $('.main_area').removeClass('main-fixed')
+                    $('.collection').removeClass('collection-fixed')
+                    $('.main_area .row').css({
+                        "padding-top":"0px"
+                    })
+
                 }
 
             }else{

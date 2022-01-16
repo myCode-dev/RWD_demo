@@ -206,32 +206,56 @@ var creator = [
 var collection = [
     {
         "pic": "images/homepage/live-gumball.gif",
-        "no":"PHANTA BEAR #689",
+        "no":"Live Items #689",
         "price":4.2,
         "like":531,
     },
     {
         "pic": "images/homepage/live-licking.gif",
-        "no":"PHANTA BEAR #229",
+        "no":"Live Items #229",
         "price":2.2,
         "like":511,
     },
     {
         "pic": "images/homepage/live-dip.gif",
-        "no":"PHANTA BEAR #239",
+        "no":"Live Items #239",
         "price":2.1,
         "like":411,
     },
     {
         "pic": "images/homepage/live-lock.gif",
-        "no":"PHANTA BEAR #339",
+        "no":"Live Items #329",
         "price":3.1,
         "like":415,
     },
     {
         "pic": "images/status/live-shampoo.gif",
-        "no":"PHANTA BEAR #339",
+        "no":"Live Items #153",
         "price":3.1,
         "like":415,
+    },
+    {
+        "pic": "images/collections/pencil.gif",
+        "no":"Live Items #119",
+        "price":2.1,
+        "like":205,
+    },
+    {
+        "pic": "images/collections/cheese.gif",
+        "no":"Live Items #309",
+        "price":2.1,
+        "like":205,
+    },
+    {
+        "pic": "images/collections/mask.gif",
+        "no":"Live Items #239",
+        "price":2.7,
+        "like":285,
+    },
+    {
+        "pic": "images/collections/phone.gif",
+        "no":"Live Items #319",
+        "price":3.1,
+        "like":305,
     }
 ]

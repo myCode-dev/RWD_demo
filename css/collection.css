@@ -133,7 +133,14 @@
     width: 45%;
     background-color: transparent;
 }
+@media screen and (max-width:768px){
+    .social_media button img{
+        display: none;
+    }
+}
 
+
+/* for social media btn */
 @media screen and (min-width:768px){
     .intro .data .item{
         width: 25%;
@@ -151,17 +158,16 @@
         width: 20%;
         display: flex;
         padding-top: 10px;
-        /* justify-content: flex-end; */
+        justify-content: flex-end;
     }
     .intro .social_media button{
         padding: 2%;
         border-radius: 10px;
-        background-color: #2081E2;
     
     }
     
     .intro .social_media button img{
-       width: 100%;
+       /* width: 100%; */
         vertical-align: middle;
     }
     
@@ -180,10 +186,25 @@
     
 }
 
-
-/* scroll menu*/
-/* .collection_area .side_menu{
-    display: none;
+/* .collection_area{
+    position: fixed;
+     left: 0px;
+     right: 0px;
+     top: 70px;
+     z-index: 999;
+} */
+/* .side_menu{
+   
+}
+.main_area{
+    width: 74.6%;
+    position: fixed;
+     right: -10px;
+     top: 70px;
+     z-index: 999;
+}
+.main_area .row{
+    padding-top: 20px;
 } */
 
 @media screen and (max-width:768px){
@@ -208,6 +229,9 @@
 }
 .scroll .items .txt{
     padding: 5% 0% 5% 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .scroll .items p{
     font-size: 1.1rem;
@@ -586,4 +610,32 @@
 }
 
 
-  
+@media screen and (min-width:768px){
+    .side-fixed{
+        position: fixed;
+        width: 28%;
+        left: 0px;
+        top: 70px;
+        z-index: 999;
+        margin-left: -10px;
+    }
+    .main-fixed{
+        width: 74.6%;
+        position: fixed;
+        margin-right: -10px;
+        right: 0px;
+        top: 70px;
+        /* padding: 20px; */
+        z-index: 994;
+    }
+    
+    .collection-fixed{
+        padding: 20px;
+        position: absolute;
+        margin-bottom: 100px;
+        height: 560px;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        text-align:justify;  
+    }
+}
