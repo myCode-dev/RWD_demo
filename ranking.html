@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rankings</title>
+    <link rel="icon" href="images/common/title.ico" type="image/x-icon" >
+
+    <!-- reset -->
+    <link rel="stylesheet" href="css/reset.css">
+
+    <!-- custom -->
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/ranking.css">
+
+
+    <!-- google font | fontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <script src="js/header.js"></script>
+
+    <!-- banner -->
+    <div class="banner">
+        <div class="wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-12 col-lg-412">
+                         <h1>Top NFTs</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- section1 categories-->
+    <section class="categories">
+        <div class="container">
+            <div class="row">
+                <!-- for mobile categories -->
+                <div class="col-12 mb_categories">
+                    <div class="select">
+                        <span class="placeholder">All time</span>
+                        <ul>
+                            <li>Last 24 hours</li>
+                            <li>Last 7 days</li>
+                            <li>Last 30 days</li>
+                        </ul>
+                        <ul>
+                            <li>Last 24 hours</li>
+                            <li>Last 7 days</li>
+                            <li>Last 30 days</li>
+                        </ul>
+                        <ul>
+                            <li>Last 24 hours</li>
+                            <li>Last 7 days</li>
+                            <li>Last 30 days</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-md-3 col-lg-2 pc_categories">
+                    <div class="select">
+                        <div class="placeholder" style="padding:1em ">
+                            <img src="images/status/schedule_black_24dp.svg" alt="" style="background-color: #fff; border-radius: 50%; opacity: 0.8;">
+                            <p>All Time</p>
+                        </div>
+                        <ul>
+                            <li>Last 24 hours</li>
+                            <li>Last 7 days</li>
+                            <li>Last 30 days</li>
+                            <li>All time</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-lg-2 pc_categories">
+                    <div class="select">
+                        <div class="placeholder" style="padding:1em ">
+                          
+                            <img src="images/status/filter_coll.svg" alt="">
+                            <p>Sort</p>
+
+                        </div>
+                        <ul>
+                            <li>New</li>
+                            <li>Art</li>
+                            <li>Music</li>
+                            <li>Trend</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-lg-2 pc_categories">
+                    <div class="select">
+                        <div class="placeholder" style="padding:1em ">
+                            <img src="images/status/link_black_24dp.svg" alt="" style="background-color: #fff; border-radius: 50%; opacity: 0.8;">
+            
+                            <p>Chains</p>
+
+                        </div>
+                        <ul>
+                            <li>Ethereum</li>
+                            <li>Polygan</li>
+                            <li>klaytn</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+      
+    <!-- section2 title -->
+    <section class="rankings title">
+        <div class="container">
+            <div class="row title">
+               <div class="col-md-5 col-lg-5">
+                   <h4>Collection</h4>
+               </div>
+               <div class="col-md-1 col-lg-1">
+                   <h4>Volume</h4>
+               </div>
+               <div class="col-md-1 col-lg-1">
+                   <h4>24h %</h4>
+               </div>
+               <div class="col-md-1 col-lg-1">
+                   <h4>7d %</h4>
+               </div>
+               <div class="col-md-1 col-lg-1">
+                   <h4>Price</h4>
+               </div>
+               <div class="col-md-1 col-lg-1">
+                   <h4>Owners</h4>
+               </div>
+               <div class="col-md-1 col-lg-1">
+                   <h4>Items</h4>
+               </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section3 rankings for pc-->
+    <section class="rankings" >
+        <div class="container" id="rankingPc">
+        </div> 
+    </section>
+
+    <!-- section3 ranking for mb  -->
+    <section class="rankings">
+        <div class="container" id="rankingMb">
+        </div>
+        <div class="load_more">
+            <button class="show_more">show more</button>
+        </div>
+    </section>
+
+    <script src="js/plugins/jquery/jquery-3.6.0.min.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/ranking.js"></script>   
+
+
+    
+    
+
+
+
+
+
+</body>
+</html>
