@@ -8,7 +8,7 @@
 
 .banner .wrap{
     background: url('../images/common/common_banner.jpg');
-    background-position: left 50px;
+    /* background-position: left 50px; */
     background-size: cover;
     padding: 10% 7%;
 }
