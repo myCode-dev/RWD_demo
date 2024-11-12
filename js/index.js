@@ -1,5 +1,5 @@
 //alert for one time
-let alertmessage="'This website is a study project of a student from front-end design engineer class of Weiyu TibaMe Educational Institution. This platform is for learning purposes only. This platform is not for commercial use. If you have concerns about infringement, you can contact with TibaMe and the follow-up will be handled by a dedicated person.'"
+// let alertmessage="'This website is a study project of a student from front-end design engineer class of Weiyu TibaMe Educational Institution. This platform is for learning purposes only. This platform is not for commercial use. If you have concerns about infringement, you can contact with TibaMe and the follow-up will be handled by a dedicated person.'"
     
 
 // get cookies
@@ -38,7 +38,7 @@ function get_cookie(Name) {
 // }
 
 if(get_cookie('alerted') != 'yes'){
-    alert(alertmessage);
+    // alert(alertmessage);
     document.cookie="alerted=yes";
 }
 
